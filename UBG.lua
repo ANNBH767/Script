@@ -5,7 +5,7 @@ local UBGTab = Window:Tab({
 
 local Toggle = UBGTab:Toggle({
     Title = "技能无冷却",
-    Desc = "仅限宿傩"
+    Desc = "仅限宿傩",
     Callback = function(state)
         if state then
     game:GetService("ReplicatedStorage").Settings.Cooldowns.Ability.Value = 0
@@ -117,7 +117,6 @@ local Toggle = UBGTab:Toggle({
 local Toggle = UBGTab:Toggle({
     Title = "普攻无僵直",
     Callback = function(state)
-    if state then
          if state then
    game:GetService("ReplicatedStorage").Settings.Toggles.NoStunOnMiss.Value = true
       else
@@ -147,4 +146,5 @@ local Toggle = UBGTab:Toggle({
       end
     end
 })
+
 
