@@ -1,5 +1,4 @@
-
-local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ANNBH767/UI/refs/heads/main/UI"))() --------------新手，脚本大佬别喷我
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ANNBH767/UI/refs/heads/main/UI"))() 
 
 
 local Window = WindUI:CreateWindow({
